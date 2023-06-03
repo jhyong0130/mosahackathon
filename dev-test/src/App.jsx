@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
 	const [data, setData] = React.useState();
-	const url = "http://127.0.0.1:8000";
+	const url = "https://main.dvt7pdpv9ymys.amplifyapp.com:8000";
 
 	const GetData = () => {
 		axios.get(url).then((res) => {
